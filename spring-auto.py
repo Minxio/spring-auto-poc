@@ -1,6 +1,5 @@
 """
 springboot检测脚本
-‘练习多线程执行’
 """
 import argparse
 import concurrent.futures
@@ -20,8 +19,8 @@ headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Geck
 
 banner = r'''
           *******************
-		  SpringBoot Actuator
-		  *******************	   
+          SpringBoot Actuator
+          *******************	   
                       '''
 
 def get_args():
